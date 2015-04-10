@@ -6,7 +6,7 @@ module API::V1
   	namespace :users do
       desc "Return all user"
         post '/login' do
-          authenticated_user.authentication_token
+          authenticated_user
         end
 
         get '/' do

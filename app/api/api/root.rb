@@ -13,11 +13,6 @@ module API
 		      user = User.find_by_username(params[:username])
 		      user && user.authenticate(params[:password])
 		    end
-
-		    def authenticated_token
-		      byebug
-		      user = User.find_by_authentication_token(request.headers['Authentication-Token'])
-		    end
 		end
 
 		mount API::V1::Root #First version
