@@ -1,6 +1,6 @@
 class Message < ActiveRecord::Migration
   def change
-  	create_table :message do |t|
+  	create_table :messages do |t|
       t.belongs_to :user, index: true
       t.text :message
 
