@@ -1,0 +1,3 @@
+== README
+
+This is a very simple template on grape with rails
