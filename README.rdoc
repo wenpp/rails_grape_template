@@ -1,3 +1,5 @@
 == README
 
 This is a very simple template on grape with rails
+
+use rake api:routes to check available api
